@@ -9,7 +9,7 @@ const asignaturaSchema = mongoose.Schema({
         type: String,
         required: true
     },
-    curso: {
+    cursoId: {
         type: Number,
         required: true
     }
